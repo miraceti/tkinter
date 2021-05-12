@@ -76,7 +76,7 @@ conn.commit()
 # close connection
 conn.close()
 
-
+global count
 def query_database():
     conn = sqlite3.connect('tree_crm.db')
 
